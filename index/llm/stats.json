@@ -1,0 +1,7 @@
+{
+  "chunker": "llm",
+  "documents": 4,
+  "chunks": 381,
+  "index_dir": "/data2/a202192020/4-1/ai_sys/0415_ver2/jj_rag/index/llm",
+  "embed_model": "intfloat/multilingual-e5-small"
+}

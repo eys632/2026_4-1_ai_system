@@ -5,6 +5,5 @@ __pycache__/
 *.log
 
 # Data & indexes
-/data/raw/
-/data/processed/
-/index/
+# NOTE: For this course project we commit data/ and index/ for reproducibility.
+# If the repository grows too large later, re-add these ignores and regenerate via scripts.
