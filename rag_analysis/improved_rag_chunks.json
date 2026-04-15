@@ -1,0 +1,52 @@
+[
+  {
+    "doc_id": 0,
+    "doc_title": "학과소개",
+    "doc_category": "학과안내",
+    "chunk_id": 0,
+    "chunk_text": "전주대학교 인공지능학과는 2021년도에 교육부 지정 첨단학과로 신설되었습니다",
+    "chunk_size": 42,
+    "char_length": 42,
+    "word_count": 7
+  },
+  {
+    "doc_id": 0,
+    "doc_title": "학과소개",
+    "doc_category": "학과안내",
+    "chunk_id": 1,
+    "chunk_text": "전북권 유일의 인공지능 전문학과로서 인공지능에 관련된 전문적인 교육과 연구를 수행합니다",
+    "chunk_size": 48,
+    "char_length": 48,
+    "word_count": 10
+  },
+  {
+    "doc_id": 0,
+    "doc_title": "학과소개",
+    "doc_category": "학과안내",
+    "chunk_id": 2,
+    "chunk_text": "창의적 융합 엔지니어 양성을 목표로 합니다.",
+    "chunk_size": 24,
+    "char_length": 24,
+    "word_count": 6
+  },
+  {
+    "doc_id": 1,
+    "doc_title": "교육모토",
+    "doc_category": "학과안내",
+    "chunk_id": 3,
+    "chunk_text": "AI를 직접 보고 느끼며 재미있고 쉽게 배운다",
+    "chunk_size": 25,
+    "char_length": 25,
+    "word_count": 7
+  },
+  {
+    "doc_id": 1,
+    "doc_title": "교육모토",
+    "doc_category": "학과안내",
+    "chunk_id": 4,
+    "chunk_text": "학생들의 눈높이에 맞춰 인공지능을 가능한 쉽고 재미있게 가르칩니다.",
+    "chunk_size": 37,
+    "char_length": 37,
+    "word_count": 8
+  }
+]
