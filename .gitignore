@@ -1,9 +1,25 @@
-__pycache__/
-*.pyc
-.venv/
-.env
-*.log
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.so
 
-# Data & indexes
-# NOTE: For this course project we commit data/ and index/ for reproducibility.
-# If the repository grows too large later, re-add these ignores and regenerate via scripts.
+# Envs
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Large/derived artifacts (ver3 RAG build outputs)
+ver3/artifacts/
+ver3/**/*.npy
+ver3/**/*.index
+ver3/**/*.joblib
+
+# Do not commit PDF source documents
+ver3/**/*.pdf

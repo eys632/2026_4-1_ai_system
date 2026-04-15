@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+
+# Data & indexes
+# NOTE: For this course project we commit data/ and index/ for reproducibility.
+# If the repository grows too large later, re-add these ignores and regenerate via scripts.
