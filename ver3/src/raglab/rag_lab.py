@@ -44,8 +44,13 @@ def _run_pdftotext(pdf_path: Path, out_txt: Path, layout: bool = True) -> None:
     subprocess.run(cmd, check=True)
 
 
-def extract_pages_via_pdftotext(pdf_path: Path, *, layout: bool = True) -> List[str]:
-    tmp_txt = Path("artifacts") / (pdf_path.stem + (".layout.txt" if layout else ".txt"))
+def extract_pages_via_pdftotext(
+    pdf_path: Path,
+    *,
+    layout: bool = True,
+    artifacts_dir: Path = Path("artifacts"),
+) -> List[str]:
+    tmp_txt = artifacts_dir / (pdf_path.stem + (".layout.txt" if layout else ".txt"))
     if not tmp_txt.exists():
         _run_pdftotext(pdf_path, tmp_txt, layout=layout)
 
@@ -343,38 +348,40 @@ def cmd_probe(args: argparse.Namespace) -> None:
 
 def cmd_build(args: argparse.Namespace) -> None:
     pdf_path = Path(args.pdf)
+    artifacts_dir = Path(args.artifacts)
+    artifacts_dir.mkdir(parents=True, exist_ok=True)
 
     if args.loader == "pdftotext":
-        raw_pages = extract_pages_via_pdftotext(pdf_path, layout=args.layout)
+        raw_pages = extract_pages_via_pdftotext(pdf_path, layout=args.layout, artifacts_dir=artifacts_dir)
     else:
         raw_pages = extract_pages_via_pypdf(pdf_path)
 
     pages = [clean_page_text(t) for t in raw_pages]
 
-    save_pages_jsonl(pages, Path("artifacts") / "pages.jsonl")
+    save_pages_jsonl(pages, artifacts_dir / "pages.jsonl")
 
     if args.chunking == "fields":
         chunks = chunk_fields(pages)
     else:
         chunks = chunk_fixed(pages, chunk_chars=args.chunk_chars, overlap=args.overlap)
 
-    _write_chunks_jsonl(chunks, Path("artifacts") / "chunks.jsonl")
+    _write_chunks_jsonl(chunks, artifacts_dir / "chunks.jsonl")
 
     texts = [c.text for c in chunks]
 
     emb_model_name = args.embed_model
     emb = build_embeddings(texts, emb_model_name, device=args.device)
-    np.save(Path("artifacts") / "embeddings.npy", emb)
+    np.save(artifacts_dir / "embeddings.npy", emb)
 
     index = build_faiss_index(emb)
     import faiss
 
-    faiss.write_index(index, str(Path("artifacts") / "faiss.index"))
+    faiss.write_index(index, str(artifacts_dir / "faiss.index"))
 
     vec, mat = build_tfidf(texts)
     import joblib
 
-    joblib.dump({"vectorizer": vec, "matrix": mat}, Path("artifacts") / "tfidf.joblib")
+    joblib.dump({"vectorizer": vec, "matrix": mat}, artifacts_dir / "tfidf.joblib")
 
     meta = {
         "pdf": str(pdf_path),
@@ -385,21 +392,22 @@ def cmd_build(args: argparse.Namespace) -> None:
         "device": args.device,
         "n_chunks": len(chunks),
     }
-    (Path("artifacts") / "build_meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    (artifacts_dir / "build_meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"built chunks: {len(chunks)}")
 
 
 def cmd_query(args: argparse.Namespace) -> None:
-    chunks = _read_chunks_jsonl(Path("artifacts") / "chunks.jsonl")
+    artifacts_dir = Path(args.artifacts)
+    chunks = _read_chunks_jsonl(artifacts_dir / "chunks.jsonl")
 
     import faiss
 
-    index = faiss.read_index(str(Path("artifacts") / "faiss.index"))
+    index = faiss.read_index(str(artifacts_dir / "faiss.index"))
 
     import joblib
 
-    tfidf = joblib.load(Path("artifacts") / "tfidf.joblib")
+    tfidf = joblib.load(artifacts_dir / "tfidf.joblib")
     vec = tfidf["vectorizer"]
     mat = tfidf["matrix"]
 
@@ -459,10 +467,12 @@ def build_argparser() -> argparse.ArgumentParser:
 
     sp = sub.add_parser("probe")
     sp.add_argument("--pdf", default=PDF_DEFAULT)
+    sp.add_argument("--artifacts", default="artifacts")
     sp.set_defaults(func=cmd_probe)
 
     sb = sub.add_parser("build")
     sb.add_argument("--pdf", default=PDF_DEFAULT)
+    sb.add_argument("--artifacts", default="artifacts")
     sb.add_argument("--loader", choices=["pdftotext", "pypdf"], default="pdftotext")
     sb.add_argument("--layout", action="store_true", default=True)
     sb.add_argument("--no-layout", dest="layout", action="store_false")
@@ -474,6 +484,7 @@ def build_argparser() -> argparse.ArgumentParser:
     sb.set_defaults(func=cmd_build)
 
     sq = sub.add_parser("query")
+    sq.add_argument("--artifacts", default="artifacts")
     sq.add_argument("-q", required=True)
     sq.add_argument("-k", type=int, default=5)
     sq.add_argument("--method", choices=["dense", "sparse", "hybrid"], default="hybrid")

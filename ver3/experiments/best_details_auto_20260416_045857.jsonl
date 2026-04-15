@@ -1,0 +1,120 @@
+{"id": "auto-0001", "question": "학교 밖 청소년 지원 지원 내용이 뭐야?", "gold_service": "학교 밖 청소년 지원", "gold_field": "내용", "hit": false, "rr": 0.0, "top1_service": "학교 밖 청소년 지원", "top1_field": "문의"}
+{"id": "auto-0002", "question": "입양아동 지원 혜택(지원) 내용 알려줘", "gold_service": "입양아동 지원", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "입양아동 지원", "top1_field": "문의"}
+{"id": "auto-0003", "question": "장애인 서비스지원 종합조사 신청 지원 내용이 뭐야?", "gold_service": "장애인 서비스지원 종합조사 신청", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "장애인 서비스지원 종합조사 신청", "top1_field": "문의"}
+{"id": "auto-0004", "question": "초･중･고 학생 교육정보화 지원(PC, 인터넷통신비) 신청 절차가 어떻게 돼?", "gold_service": "초･중･고 학생 교육정보화 지원(PC, 인터넷통신비)", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "방과후학교 자유수강권", "top1_field": "문의"}
+{"id": "auto-0005", "question": "융자 신청 절차가 어떻게 돼?", "gold_service": "융자", "gold_field": "방법", "hit": true, "rr": 0.2, "top1_service": "융자 근로자를 사용하지 않는 사업주)", "top1_field": "방법"}
+{"id": "auto-0006", "question": "전문기술인재장학금 혜택(지원) 내용 알려줘", "gold_service": "전문기술인재장학금", "gold_field": "내용", "hit": false, "rr": 0.0, "top1_service": "전문기술인재장학금", "top1_field": "문의"}
+{"id": "auto-0007", "question": "지역아동센터 지원 혜택(지원) 내용 알려줘", "gold_service": "지역아동센터 지원", "gold_field": "내용", "hit": true, "rr": 0.2, "top1_service": "지역아동센터 지원", "top1_field": "방법"}
+{"id": "auto-0008", "question": "농어가 목돈마련 저축 장려금 대상은 누구야?", "gold_service": "농어가 목돈마련 저축 장려금", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "농어가 목돈마련 저축 장려금", "top1_field": "내용"}
+{"id": "auto-0009", "question": "건강보험 차상위 지원 자격 조건 알려줘", "gold_service": "건강보험 차상위", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "건강보험 산정특례", "top1_field": "문의"}
+{"id": "auto-0010", "question": "발달장애인 공공후견 지원 문의 전화번호 알려줘", "gold_service": "발달장애인 공공후견 지원", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "발달장애인 공공후견 지원", "top1_field": "문의"}
+{"id": "auto-0011", "question": "무료 법률구조 제도 문의 전화번호 알려줘", "gold_service": "무료 법률구조 제도", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "발달장애인 공공후견 지원", "top1_field": "문의"}
+{"id": "auto-0012", "question": "청소년동반자 프로그램 대상은 누구야?", "gold_service": "청소년동반자 프로그램", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "청소년동반자 프로그램", "top1_field": "내용"}
+{"id": "auto-0013", "question": "취약지역 어르신 문화누림 신청 방법 알려줘", "gold_service": "취약지역 어르신 문화누림", "gold_field": "방법", "hit": true, "rr": 0.25, "top1_service": "디지털배움터", "top1_field": "문의"}
+{"id": "auto-0014", "question": "(취약계층 에너지복지사업) 대상은 누구야?", "gold_service": "(취약계층 에너지복지사업)", "gold_field": "대상", "hit": true, "rr": 1.0, "top1_service": "(취약계층 에너지복지사업)", "top1_field": "대상"}
+{"id": "auto-0015", "question": "언어발달 지원 어디에 연락하면 돼?", "gold_service": "언어발달 지원", "gold_field": "문의", "hit": false, "rr": 0.0, "top1_service": "다문화가족 자녀 언어발달 지원", "top1_field": "방법"}
+{"id": "auto-0016", "question": "중증장애인확인서 발급 지원 내용이 뭐야?", "gold_service": "중증장애인확인서 발급", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "장애인 근로지원인", "top1_field": "문의"}
+{"id": "auto-0017", "question": "국가유공자 등 취업능력개발 지원 대상은 누구야?", "gold_service": "국가유공자 등 취업능력개발 지원", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "국가유공자 등 취업능력개발 지원", "top1_field": "문의"}
+{"id": "auto-0018", "question": "주거취약계층 주거지원 지원 자격 조건 알려줘", "gold_service": "주거취약계층 주거지원", "gold_field": "대상", "hit": true, "rr": 1.0, "top1_service": "주거취약계층 주거지원", "top1_field": "대상"}
+{"id": "auto-0019", "question": "국가유공자 등 대부 지원 지원 자격 조건 알려줘", "gold_service": "국가유공자 등 대부 지원", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "국가유공자 등 대부 지원", "top1_field": "방법"}
+{"id": "auto-0020", "question": "쌀 할인판매(양곡할인) 지원 내용이 뭐야?", "gold_service": "쌀 할인판매(양곡할인)", "gold_field": "내용", "hit": true, "rr": 0.5, "top1_service": "가사·간병 방문 지원사업", "top1_field": "문의"}
+{"id": "auto-0021", "question": "중증장애인 지원고용(훈련수당) 문의 전화번호 알려줘", "gold_service": "중증장애인 지원고용(훈련수당)", "gold_field": "문의", "hit": true, "rr": 0.25, "top1_service": "장애인 신규 고용장려금 지원", "top1_field": "문의"}
+{"id": "auto-0022", "question": "발달장애인 부모 상담 지원 지원 자격 조건 알려줘", "gold_service": "발달장애인 부모 상담 지원", "gold_field": "대상", "hit": true, "rr": 0.3333333333333333, "top1_service": "발달장애인 부모 상담 지원", "top1_field": "문의"}
+{"id": "auto-0023", "question": "북한배경학생 교육 지원(멘토링 지원 등) 문의 전화번호 알려줘", "gold_service": "북한배경학생 교육 지원(멘토링 지원 등)", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "북한배경학생 교육 지원(멘토링 지원 등)", "top1_field": "문의"}
+{"id": "auto-0024", "question": "마을세무사 신청 방법 알려줘", "gold_service": "마을세무사", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "마을세무사", "top1_field": "문의"}
+{"id": "auto-0025", "question": "장애인 창업점포 지원사업 신청 방법 알려줘", "gold_service": "장애인 창업점포 지원사업", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "장애인기업 창업보육실 운영", "top1_field": "문의"}
+{"id": "auto-0026", "question": "대체인력지원사업(사업주 지원) 혜택(지원) 내용 알려줘", "gold_service": "대체인력지원사업(사업주 지원)", "gold_field": "내용", "hit": true, "rr": 1.0, "top1_service": "대체인력지원사업(사업주 지원)", "top1_field": "내용"}
+{"id": "auto-0027", "question": "협약 체결 대학 대학원생 및 전문대학의 전문 문의 전화번호 알려줘", "gold_service": "협약 체결 대학 대학원생 및 전문대학의 전문", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "취업 후 상환 학자금대출", "top1_field": "대상"}
+{"id": "auto-0028", "question": "시간제 보육 지원 어디에 연락하면 돼?", "gold_service": "시간제 보육 지원", "gold_field": "문의", "hit": true, "rr": 0.3333333333333333, "top1_service": "시간제 보육 지원", "top1_field": "대상"}
+{"id": "auto-0029", "question": "아동통합서비스 지원(드림스타트사업) 어디에 연락하면 돼?", "gold_service": "아동통합서비스 지원(드림스타트사업)", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "아동통합서비스 지원(드림스타트사업)", "top1_field": "문의"}
+{"id": "auto-0030", "question": "에너지바우처 신청 방법 알려줘", "gold_service": "에너지바우처", "gold_field": "방법", "hit": true, "rr": 1.0, "top1_service": "에너지바우처", "top1_field": "방법"}
+{"id": "auto-0031", "question": "의료급여 본인부담 면제 지원 자격 조건 알려줘", "gold_service": "의료급여 본인부담 면제", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "의료급여 제도", "top1_field": "문의"}
+{"id": "auto-0032", "question": "우수고등학생 해외유학 장학금(드림장학금) 신청 절차가 어떻게 돼?", "gold_service": "우수고등학생 해외유학 장학금(드림장학금)", "gold_field": "방법", "hit": true, "rr": 1.0, "top1_service": "우수고등학생 해외유학 장학금(드림장학금)", "top1_field": "방법"}
+{"id": "auto-0033", "question": "여성기업 판로역량 강화지원 신청 방법 알려줘", "gold_service": "여성기업 판로역량 강화지원", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "여성기업 판로역량 강화지원", "top1_field": "문의"}
+{"id": "auto-0034", "question": "희망복지지원단 통합사례관리사업 혜택(지원) 내용 알려줘", "gold_service": "희망복지지원단 통합사례관리사업", "gold_field": "내용", "hit": true, "rr": 0.25, "top1_service": "온가족보듬사업", "top1_field": "문의"}
+{"id": "auto-0035", "question": "중앙취업지원센터 운영 신청 절차가 어떻게 돼?", "gold_service": "중앙취업지원센터 운영", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "중앙취업지원센터 운영", "top1_field": "문의"}
+{"id": "auto-0036", "question": "주거급여(맞춤형급여) 신청 절차가 어떻게 돼?", "gold_service": "주거급여(맞춤형급여)", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "주거급여(맞춤형급여)", "top1_field": "문의"}
+{"id": "auto-0037", "question": "장애인 자립자금 대여 신청 절차가 어떻게 돼?", "gold_service": "장애인 자립자금 대여", "gold_field": "방법", "hit": true, "rr": 0.3333333333333333, "top1_service": "장애인 자립자금 대여", "top1_field": "문의"}
+{"id": "auto-0038", "question": "임신부 인플루엔자 국가예방접종 지원 신청 절차가 어떻게 돼?", "gold_service": "임신부 인플루엔자 국가예방접종 지원", "gold_field": "방법", "hit": true, "rr": 0.2, "top1_service": "임신부 인플루엔자 국가예방접종 지원", "top1_field": "문의"}
+{"id": "auto-0039", "question": "북한배경학생 교육 지원(멘토링 지원 등) 대상은 누구야?", "gold_service": "북한배경학생 교육 지원(멘토링 지원 등)", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "북한배경학생 교육 지원(멘토링 지원 등)", "top1_field": "문의"}
+{"id": "auto-0040", "question": "협약 체결 대학 대학원생 및 전문대학의 전문 지원 내용이 뭐야?", "gold_service": "협약 체결 대학 대학원생 및 전문대학의 전문", "gold_field": "내용", "hit": true, "rr": 0.5, "top1_service": "취업 후 상환 학자금대출", "top1_field": "대상"}
+{"id": "auto-0041", "question": "심신장애인 학자금대출 채무면제 혜택(지원) 내용 알려줘", "gold_service": "심신장애인 학자금대출 채무면제", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "심신장애인 학자금대출 채무면제", "top1_field": "방법"}
+{"id": "auto-0042", "question": "노인장기요양보험 본인부담금 감경 신청 방법 알려줘", "gold_service": "노인장기요양보험 본인부담금 감경", "gold_field": "방법", "hit": true, "rr": 1.0, "top1_service": "노인장기요양보험 본인부담금 감경", "top1_field": "방법"}
+{"id": "auto-0043", "question": "참전명예수당 어디에 연락하면 돼?", "gold_service": "참전명예수당", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "재해위로금", "top1_field": "문의"}
+{"id": "auto-0044", "question": "근로장애인 전환지원 지원 자격 조건 알려줘", "gold_service": "근로장애인 전환지원", "gold_field": "대상", "hit": true, "rr": 1.0, "top1_service": "근로장애인 전환지원", "top1_field": "대상"}
+{"id": "auto-0045", "question": "청년도약계좌 문의 전화번호 알려줘", "gold_service": "청년도약계좌", "gold_field": "문의", "hit": true, "rr": 0.3333333333333333, "top1_service": "법률홈닥터", "top1_field": "문의"}
+{"id": "auto-0046", "question": "일학습병행 어디에 연락하면 돼?", "gold_service": "일학습병행", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "중앙취업지원센터 운영", "top1_field": "문의"}
+{"id": "auto-0047", "question": "국가보훈대상자 학습보조비 지급 대상은 누구야?", "gold_service": "국가보훈대상자 학습보조비 지급", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "국가보훈대상자 수업료 등 면제", "top1_field": "문의"}
+{"id": "auto-0048", "question": "개인회생･파산 종합지원센터 지원 내용이 뭐야?", "gold_service": "개인회생･파산 종합지원센터", "gold_field": "내용", "hit": true, "rr": 1.0, "top1_service": "개인회생･파산 종합지원센터", "top1_field": "내용"}
+{"id": "auto-0049", "question": "시간제 보육 지원 대상은 누구야?", "gold_service": "시간제 보육 지원", "gold_field": "대상", "hit": true, "rr": 1.0, "top1_service": "시간제 보육 지원", "top1_field": "대상"}
+{"id": "auto-0050", "question": "가정폭력･성폭력･스토킹 피해자 무료 법률 지원 어디에 연락하면 돼?", "gold_service": "가정폭력･성폭력･스토킹 피해자 무료 법률 지원", "gold_field": "문의", "hit": true, "rr": 0.3333333333333333, "top1_service": "가정폭력 피해자 치료회복 프로그램 및 의료비 지원", "top1_field": "문의"}
+{"id": "auto-0051", "question": "국민내일배움카드제 신청 절차가 어떻게 돼?", "gold_service": "국민내일배움카드제", "gold_field": "방법", "hit": true, "rr": 0.3333333333333333, "top1_service": "국민취업지원제도", "top1_field": "문의"}
+{"id": "auto-0052", "question": "여성긴급전화 1366 어디에 연락하면 돼?", "gold_service": "여성긴급전화 1366", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "여성긴급전화 1366", "top1_field": "방법"}
+{"id": "auto-0053", "question": "햇살론 youth 지원 자격 조건 알려줘", "gold_service": "햇살론 youth", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "햇살론 youth", "top1_field": "문의"}
+{"id": "auto-0054", "question": "심신장애인 학자금대출 채무면제 혜택(지원) 내용 알려줘", "gold_service": "심신장애인 학자금대출 채무면제", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "심신장애인 학자금대출 채무면제", "top1_field": "방법"}
+{"id": "auto-0055", "question": "중장기복무 제대군인 무료법률 구조 지원 지원 내용이 뭐야?", "gold_service": "중장기복무 제대군인 무료법률 구조 지원", "gold_field": "내용", "hit": true, "rr": 0.5, "top1_service": "제대군인 전직지원금 지원", "top1_field": "문의"}
+{"id": "auto-0056", "question": "치매검진 지원 대상은 누구야?", "gold_service": "치매검진 지원", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "치매검진 지원", "top1_field": "문의"}
+{"id": "auto-0057", "question": "증여세 과세가액 불산입 혜택(지원) 내용 알려줘", "gold_service": "증여세 과세가액 불산입", "gold_field": "내용", "hit": true, "rr": 1.0, "top1_service": "증여세 과세가액 불산입", "top1_field": "내용"}
+{"id": "auto-0058", "question": "입원･격리치료명령 결핵환자 부양가족 생활보호비 지원 신청 방법 알려줘", "gold_service": "입원･격리치료명령 결핵환자 부양가족 생활보호비 지원", "gold_field": "방법", "hit": true, "rr": 1.0, "top1_service": "입원･격리치료명령 결핵환자 부양가족 생활보호비 지원", "top1_field": "방법"}
+{"id": "auto-0059", "question": "승용자동차 LPG 연료 사용 허용 지원 내용이 뭐야?", "gold_service": "승용자동차 LPG 연료 사용 허용", "gold_field": "내용", "hit": true, "rr": 0.5, "top1_service": "승용자동차 LPG 연료 사용 허용", "top1_field": "문의"}
+{"id": "auto-0060", "question": "여성긴급전화 1366 대상은 누구야?", "gold_service": "여성긴급전화 1366", "gold_field": "대상", "hit": true, "rr": 0.3333333333333333, "top1_service": "여성긴급전화 1366", "top1_field": "방법"}
+{"id": "auto-0061", "question": "도서민 여객선 운임 지원 어디에 연락하면 돼?", "gold_service": "도서민 여객선 운임 지원", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "도서민 여객선 운임 지원", "top1_field": "문의"}
+{"id": "auto-0062", "question": "어선원 및 어선 재해보상 보험 문의 전화번호 알려줘", "gold_service": "어선원 및 어선 재해보상 보험", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "어선원 및 어선 재해보상 보험", "top1_field": "대상"}
+{"id": "auto-0063", "question": "산재근로자 직업훈련 혜택(지원) 내용 알려줘", "gold_service": "산재근로자 직업훈련", "gold_field": "내용", "hit": true, "rr": 0.2, "top1_service": "산재근로자 직업훈련", "top1_field": "문의"}
+{"id": "auto-0064", "question": "다문화･탈북학생 멘토링 지원 혜택(지원) 내용 알려줘", "gold_service": "다문화･탈북학생 멘토링 지원", "gold_field": "내용", "hit": true, "rr": 0.25, "top1_service": "사회통합프로그램(KIIP)", "top1_field": "문의"}
+{"id": "auto-0065", "question": "희귀질환자 의료비 지원 혜택(지원) 내용 알려줘", "gold_service": "희귀질환자 의료비 지원", "gold_field": "내용", "hit": false, "rr": 0.0, "top1_service": "희귀질환자 의료비 지원", "top1_field": "대상"}
+{"id": "auto-0066", "question": "3~5세 누리과정 지원 문의 전화번호 알려줘", "gold_service": "3~5세 누리과정 지원", "gold_field": "문의", "hit": true, "rr": 0.2, "top1_service": "3~5세 누리과정 지원", "top1_field": "방법"}
+{"id": "auto-0067", "question": "교통시설 이용 지원 신청 절차가 어떻게 돼?", "gold_service": "교통시설 이용 지원", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "교통시설 이용 지원", "top1_field": "내용"}
+{"id": "auto-0068", "question": "냉동난자 사용 보조생식술 지원 신청 절차가 어떻게 돼?", "gold_service": "냉동난자 사용 보조생식술 지원", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "냉동난자 사용 보조생식술 지원", "top1_field": "내용"}
+{"id": "auto-0069", "question": "햇살론 youth 지원 내용이 뭐야?", "gold_service": "햇살론 youth", "gold_field": "내용", "hit": true, "rr": 0.25, "top1_service": "햇살론 youth", "top1_field": "문의"}
+{"id": "auto-0070", "question": "장애인 의료비 지원 지원 내용이 뭐야?", "gold_service": "장애인 의료비 지원", "gold_field": "내용", "hit": false, "rr": 0.0, "top1_service": "장애인 의료비 지원", "top1_field": "대상"}
+{"id": "auto-0071", "question": "청소년성문화센터 문의 전화번호 알려줘", "gold_service": "청소년성문화센터", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "청소년성문화센터", "top1_field": "문의"}
+{"id": "auto-0072", "question": "노인 일자리 및 사회활동 지원 혜택(지원) 내용 알려줘", "gold_service": "노인 일자리 및 사회활동 지원", "gold_field": "내용", "hit": true, "rr": 0.25, "top1_service": "노인 일자리 및 사회활동 지원", "top1_field": "문의"}
+{"id": "auto-0073", "question": "장애인 취업성공패키지 지원 내용이 뭐야?", "gold_service": "장애인 취업성공패키지", "gold_field": "내용", "hit": false, "rr": 0.0, "top1_service": "장애인생산품 판매시설", "top1_field": "문의"}
+{"id": "auto-0074", "question": "산림복지서비스이용권 신청 방법 알려줘", "gold_service": "산림복지서비스이용권", "gold_field": "방법", "hit": false, "rr": 0.0, "top1_service": "산림복지서비스이용권", "top1_field": "대상"}
+{"id": "auto-0075", "question": "어르신 국가예방접종 지원 사업 지원 자격 조건 알려줘", "gold_service": "어르신 국가예방접종 지원 사업", "gold_field": "대상", "hit": true, "rr": 1.0, "top1_service": "어르신 국가예방접종 지원 사업", "top1_field": "대상"}
+{"id": "auto-0076", "question": "(육아휴직 지원금, 육아기 근로시간 단축 지원금) 문의 전화번호 알려줘", "gold_service": "(육아휴직 지원금, 육아기 근로시간 단축 지원금)", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "(육아휴직 지원금, 육아기 근로시간 단축 지원금)", "top1_field": "문의"}
+{"id": "auto-0077", "question": "임신 사전건강관리 지원 신청 절차가 어떻게 돼?", "gold_service": "임신 사전건강관리 지원", "gold_field": "방법", "hit": true, "rr": 1.0, "top1_service": "임신 사전건강관리 지원", "top1_field": "방법"}
+{"id": "auto-0078", "question": "지역사회 청소년 통합지원체계(청소년안전망) 지원 내용이 뭐야?", "gold_service": "지역사회 청소년 통합지원체계(청소년안전망)", "gold_field": "내용", "hit": true, "rr": 1.0, "top1_service": "지역사회 청소년 통합지원체계(청소년안전망)", "top1_field": "내용"}
+{"id": "auto-0079", "question": "장애인 건강보험료 경감 어디에 연락하면 돼?", "gold_service": "장애인 건강보험료 경감", "gold_field": "문의", "hit": true, "rr": 0.3333333333333333, "top1_service": "장애인 건강보험료 경감", "top1_field": "내용"}
+{"id": "auto-0080", "question": "그밖의 연장형 보육료 지원(어린이집 이용 아동) 대상은 누구야?", "gold_service": "그밖의 연장형 보육료 지원(어린이집 이용 아동)", "gold_field": "대상", "hit": true, "rr": 0.3333333333333333, "top1_service": "장애아 방과후 보육료 지원", "top1_field": "문의"}
+{"id": "auto-0081", "question": "영양플러스 문의 전화번호 알려줘", "gold_service": "영양플러스", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "영양플러스", "top1_field": "문의"}
+{"id": "auto-0082", "question": "독거노인 사회관계 활성화 지원 혜택(지원) 내용 알려줘", "gold_service": "독거노인 사회관계 활성화 지원", "gold_field": "내용", "hit": true, "rr": 1.0, "top1_service": "독거노인 사회관계 활성화 지원", "top1_field": "내용"}
+{"id": "auto-0083", "question": "해외취업 지원 문의 전화번호 알려줘", "gold_service": "해외취업 지원", "gold_field": "문의", "hit": true, "rr": 0.25, "top1_service": "법률홈닥터", "top1_field": "문의"}
+{"id": "auto-0084", "question": "청소년상담 1388 어디에 연락하면 돼?", "gold_service": "청소년상담 1388", "gold_field": "문의", "hit": true, "rr": 0.3333333333333333, "top1_service": "청소년상담 1388", "top1_field": "내용"}
+{"id": "auto-0085", "question": "남북하나재단 북한이탈주민 취업지원사업 어디에 연락하면 돼?", "gold_service": "남북하나재단 북한이탈주민 취업지원사업", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "남북하나재단 북한이탈주민 취업지원사업", "top1_field": "문의"}
+{"id": "auto-0086", "question": "여성기업 확인서 발급 신청 방법 알려줘", "gold_service": "여성기업 확인서 발급", "gold_field": "방법", "hit": true, "rr": 0.5, "top1_service": "여성기업종합지원센터 운영", "top1_field": "문의"}
+{"id": "auto-0087", "question": "풍수해･지진재해보험 신청 방법 알려줘", "gold_service": "풍수해･지진재해보험", "gold_field": "방법", "hit": true, "rr": 1.0, "top1_service": "풍수해･지진재해보험", "top1_field": "방법"}
+{"id": "auto-0088", "question": "창업기숙사 사업 신청 절차가 어떻게 돼?", "gold_service": "창업기숙사 사업", "gold_field": "방법", "hit": true, "rr": 0.3333333333333333, "top1_service": "창업기숙사 사업", "top1_field": "대상"}
+{"id": "auto-0089", "question": "장애인 주택 개조 지원 내용이 뭐야?", "gold_service": "장애인 주택 개조", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "장애인 주택 특별(우선)공급", "top1_field": "문의"}
+{"id": "auto-0090", "question": "자활근로 어디에 연락하면 돼?", "gold_service": "자활근로", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "허그일자리지원 프로그램", "top1_field": "문의"}
+{"id": "auto-0091", "question": "개발제한구역 생활비용 보조 어디에 연락하면 돼?", "gold_service": "개발제한구역 생활비용 보조", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "개발제한구역 생활비용 보조", "top1_field": "방법"}
+{"id": "auto-0092", "question": "장애인용 자동차에 대한 지방세 감면 문의 전화번호 알려줘", "gold_service": "장애인용 자동차에 대한 지방세 감면", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "장애인용 자동차에 대한 지방세 감면", "top1_field": "문의"}
+{"id": "auto-0093", "question": "아동발달지원계좌(디딤씨앗통장) 문의 전화번호 알려줘", "gold_service": "아동발달지원계좌(디딤씨앗통장)", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "아동발달지원계좌(디딤씨앗통장)", "top1_field": "문의"}
+{"id": "auto-0094", "question": "고혈압･당뇨병 등록관리 지원 자격 조건 알려줘", "gold_service": "고혈압･당뇨병 등록관리", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "고혈압･당뇨병 등록관리", "top1_field": "문의"}
+{"id": "auto-0095", "question": "다문화가족 자녀 언어발달 지원 문의 전화번호 알려줘", "gold_service": "다문화가족 자녀 언어발달 지원", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "다문화가족 자녀 언어발달 지원", "top1_field": "방법"}
+{"id": "auto-0096", "question": "영주귀국정착금 어디에 연락하면 돼?", "gold_service": "영주귀국정착금", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "영주귀국정착금", "top1_field": "문의"}
+{"id": "auto-0097", "question": "장애인 활동지원 어디에 연락하면 돼?", "gold_service": "장애인 활동지원", "gold_field": "문의", "hit": true, "rr": 0.5, "top1_service": "장애인 활동지원", "top1_field": "내용"}
+{"id": "auto-0098", "question": "여성기업 판로역량 강화지원 지원 내용이 뭐야?", "gold_service": "여성기업 판로역량 강화지원", "gold_field": "내용", "hit": true, "rr": 0.25, "top1_service": "여성기업 판로역량 강화지원", "top1_field": "문의"}
+{"id": "auto-0099", "question": "일학습병행 신청 절차가 어떻게 돼?", "gold_service": "일학습병행", "gold_field": "방법", "hit": true, "rr": 0.25, "top1_service": "중앙취업지원센터 운영", "top1_field": "문의"}
+{"id": "auto-0100", "question": "청소년 인터넷･스마트폰 과의존 치유 지원 어디에 연락하면 돼?", "gold_service": "청소년 인터넷･스마트폰 과의존 치유 지원", "gold_field": "문의", "hit": true, "rr": 0.25, "top1_service": "청소년 인터넷･스마트폰 과의존 치유 지원", "top1_field": "방법"}
+{"id": "auto-0101", "question": "장애인 신규 고용장려금 지원 혜택(지원) 내용 알려줘", "gold_service": "장애인 신규 고용장려금 지원", "gold_field": "내용", "hit": false, "rr": 0.0, "top1_service": "장애인 신규 고용장려금 지원", "top1_field": "문의"}
+{"id": "auto-0102", "question": "불법사금융예방대출 신청 절차가 어떻게 돼?", "gold_service": "불법사금융예방대출", "gold_field": "방법", "hit": true, "rr": 0.3333333333333333, "top1_service": "불법사금융예방대출", "top1_field": "문의"}
+{"id": "auto-0103", "question": "장기복무 제대군인 수업료 보조 지원 자격 조건 알려줘", "gold_service": "장기복무 제대군인 수업료 보조", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "장기복무 제대군인 수업료 보조", "top1_field": "문의"}
+{"id": "auto-0104", "question": "인문100년 장학금 지원 자격 조건 알려줘", "gold_service": "인문100년 장학금", "gold_field": "대상", "hit": true, "rr": 0.3333333333333333, "top1_service": "인문100년 장학금", "top1_field": "문의"}
+{"id": "auto-0105", "question": "국가보훈대상자 수업료 등 면제 혜택(지원) 내용 알려줘", "gold_service": "국가보훈대상자 수업료 등 면제", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "국가보훈대상자 수업료 등 면제", "top1_field": "대상"}
+{"id": "auto-0106", "question": "건강생활 유지비 지원 지원 내용이 뭐야?", "gold_service": "건강생활 유지비 지원", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "건강생활 유지비 지원", "top1_field": "문의"}
+{"id": "auto-0107", "question": "장애아동수당 문의 전화번호 알려줘", "gold_service": "장애아동수당", "gold_field": "문의", "hit": true, "rr": 0.2, "top1_service": "법률홈닥터", "top1_field": "문의"}
+{"id": "auto-0108", "question": "산재보험 요양급여(재활보조기구) 혜택(지원) 내용 알려줘", "gold_service": "산재보험 요양급여(재활보조기구)", "gold_field": "내용", "hit": true, "rr": 0.3333333333333333, "top1_service": "산재보험 요양급여(재활보조기구)", "top1_field": "문의"}
+{"id": "auto-0109", "question": "인문100년 장학금 대상은 누구야?", "gold_service": "인문100년 장학금", "gold_field": "대상", "hit": true, "rr": 0.3333333333333333, "top1_service": "인문100년 장학금", "top1_field": "문의"}
+{"id": "auto-0110", "question": "법률홈닥터 문의 전화번호 알려줘", "gold_service": "법률홈닥터", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "법률홈닥터", "top1_field": "문의"}
+{"id": "auto-0111", "question": "농어가 목돈마련 저축 장려금 지원 자격 조건 알려줘", "gold_service": "농어가 목돈마련 저축 장려금", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "농어가 목돈마련 저축 장려금", "top1_field": "내용"}
+{"id": "auto-0112", "question": "국민취업지원제도 어디에 연락하면 돼?", "gold_service": "국민취업지원제도", "gold_field": "문의", "hit": true, "rr": 1.0, "top1_service": "국민취업지원제도", "top1_field": "문의"}
+{"id": "auto-0113", "question": "산재근로자 직장복귀 지원(근로자) 혜택(지원) 내용 알려줘", "gold_service": "산재근로자 직장복귀 지원(근로자)", "gold_field": "내용", "hit": true, "rr": 0.25, "top1_service": "산재근로자 직장복귀 지원(근로자)", "top1_field": "대상"}
+{"id": "auto-0114", "question": "중증장애인 지원고용(훈련수당) 어디에 연락하면 돼?", "gold_service": "중증장애인 지원고용(훈련수당)", "gold_field": "문의", "hit": true, "rr": 0.25, "top1_service": "장애인 신규 고용장려금 지원", "top1_field": "문의"}
+{"id": "auto-0115", "question": "서민금융진흥원 소액보험(한부모가정의료보험) 지원 자격 조건 알려줘", "gold_service": "서민금융진흥원 소액보험(한부모가정의료보험)", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "서민금융진흥원 소액보험(한부모가정의료보험)", "top1_field": "문의"}
+{"id": "auto-0116", "question": "산재근로자 직업훈련 지원 내용이 뭐야?", "gold_service": "산재근로자 직업훈련", "gold_field": "내용", "hit": true, "rr": 0.2, "top1_service": "산재근로자 직업훈련", "top1_field": "문의"}
+{"id": "auto-0117", "question": "육아휴직 급여 지원 어디에 연락하면 돼?", "gold_service": "육아휴직 급여 지원", "gold_field": "문의", "hit": true, "rr": 0.3333333333333333, "top1_service": "육아휴직 급여 지원", "top1_field": "대상"}
+{"id": "auto-0118", "question": "햇살론15 대상은 누구야?", "gold_service": "햇살론15", "gold_field": "대상", "hit": true, "rr": 0.5, "top1_service": "햇살론 youth", "top1_field": "문의"}
+{"id": "auto-0119", "question": "생계곤란 병역감면 제도 지원 자격 조건 알려줘", "gold_service": "생계곤란 병역감면 제도", "gold_field": "대상", "hit": true, "rr": 0.25, "top1_service": "신체적 배려대상자 지원", "top1_field": "문의"}
+{"id": "auto-0120", "question": "의사상자 등 지원 혜택(지원) 내용 알려줘", "gold_service": "의사상자 등 지원", "gold_field": "내용", "hit": true, "rr": 1.0, "top1_service": "의사상자 등 지원", "top1_field": "내용"}

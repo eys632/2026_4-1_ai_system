@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -20,30 +21,36 @@ def load_questions(path: Path) -> List[Dict]:
     return qs
 
 
+def _norm_key(v):
+    if v is None:
+        return None
+    return re.sub(r"\s+", "", str(v))
+
+
 def is_hit(chunks: List[Chunk], gold: Dict) -> bool:
-    g_service = gold.get("service")
-    g_field = gold.get("field")
+    g_service = _norm_key(gold.get("service"))
+    g_field = _norm_key(gold.get("field"))
     if not g_service:
         return False
 
     for ch in chunks:
         m = ch.meta or {}
-        if m.get("service") != g_service:
+        if _norm_key(m.get("service")) != g_service:
             continue
-        if g_field and m.get("field") != g_field:
+        if g_field and _norm_key(m.get("field")) != g_field:
             continue
         return True
     return False
 
 
 def reciprocal_rank(chunks: List[Chunk], gold: Dict) -> float:
-    g_service = gold.get("service")
-    g_field = gold.get("field")
+    g_service = _norm_key(gold.get("service"))
+    g_field = _norm_key(gold.get("field"))
     for i, ch in enumerate(chunks, start=1):
         m = ch.meta or {}
-        if m.get("service") != g_service:
+        if _norm_key(m.get("service")) != g_service:
             continue
-        if g_field and m.get("field") != g_field:
+        if g_field and _norm_key(m.get("field")) != g_field:
             continue
         return 1.0 / i
     return 0.0
@@ -52,21 +59,23 @@ def reciprocal_rank(chunks: List[Chunk], gold: Dict) -> float:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--questions", default="eval/questions.jsonl")
+    ap.add_argument("--artifacts", default="artifacts")
     ap.add_argument("--k", type=int, default=5)
     ap.add_argument("--method", choices=["dense", "sparse", "hybrid"], default="hybrid")
     ap.add_argument("--embed-model", default="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     ap.add_argument("--device", default="cuda")
     args = ap.parse_args()
 
-    chunks_all = _read_chunks_jsonl(Path("artifacts/chunks.jsonl"))
+    artifacts_dir = Path(args.artifacts)
+    chunks_all = _read_chunks_jsonl(artifacts_dir / "chunks.jsonl")
 
     import faiss
 
-    index = faiss.read_index(str(Path("artifacts/faiss.index")))
+    index = faiss.read_index(str(artifacts_dir / "faiss.index"))
 
     import joblib
 
-    tfidf = joblib.load(Path("artifacts/tfidf.joblib"))
+    tfidf = joblib.load(artifacts_dir / "tfidf.joblib")
     vec = tfidf["vectorizer"]
     mat = tfidf["matrix"]
 

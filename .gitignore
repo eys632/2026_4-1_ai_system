@@ -23,3 +23,6 @@ ver3/**/*.joblib
 
 # Do not commit PDF source documents
 ver3/**/*.pdf
+
+# Do not commit extracted full-text dumps of PDFs
+ver3/experiments/*.layout.txt

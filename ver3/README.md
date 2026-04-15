@@ -95,6 +95,28 @@ cd ver3
 python -m src.raglab.eval_retrieval --method hybrid --k 5
 ```
 
+## 실험(설정 비교: loader~post-retrieval)
+아래 스크립트는 **로더/청킹/리트리벌 방식/간단 post-retrieval(서비스/필드 라우팅)** 조합을 한 번에 비교하고,
+`ver3/experiments/` 아래에 결과(`results_*.json`, `results_*.csv`, `top10_*.txt`)를 저장합니다.
+
+```bash
+cd ver3
+
+# 최소: 수동 질문셋(eval/questions.jsonl)로만 비교
+python -m src.raglab.experiment_ablation \
+  --pdf "/path/to/2025 나에게  힘이 되는 복지서비스.pdf" \
+  --k 5 \
+  --embed-device cpu
+
+# 권장: 템플릿 기반 질문을 추가로 생성해서(auto) 비교(예: 120문항)
+python -m src.raglab.experiment_ablation \
+  --pdf "/path/to/2025 나에게  힘이 되는 복지서비스.pdf" \
+  --k 5 \
+  --auto-questions 120 \
+  --seed 7 \
+  --embed-device cpu
+```
+
 ## 실행 팁
 - vLLM 메모리 이슈가 나면 `--gpu-mem-util`을 낮추세요(예: 0.60~0.75).
 - 첫 답변이 오래 걸리면(수 분 이상) `--enforce-eager` + `--max-model-len 2048` 조합을 우선 권장합니다.
