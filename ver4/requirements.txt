@@ -1,0 +1,17 @@
+numpy
+pandas
+pyarrow
+pypdf
+pymupdf
+sentence-transformers
+faiss-cpu
+scikit-learn
+joblib
+tqdm
+PyYAML
+vllm
+transformers
+torch
+openpyxl
+matplotlib
+seaborn

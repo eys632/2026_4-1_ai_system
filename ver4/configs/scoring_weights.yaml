@@ -1,0 +1,11 @@
+weights:
+  hit@5: 0.12
+  mrr: 0.08
+  ndcg@5: 0.08
+  exact_match: 0.10
+  token_f1: 0.10
+  answer_similarity: 0.08
+  citation_overlap: 0.10
+  groundedness_heuristic: 0.14
+  abstention_correct: 0.12
+  llm_judge_overall: 0.08

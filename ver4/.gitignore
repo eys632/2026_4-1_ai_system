@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.venv/
+
+# Runtime artifacts (large / reproducible outputs)
+artifacts/
+results/
+eval/llm_judge_logs/
+
+# Intermediate data caches
+data/extracted/
+data/cleaned/
+data/chunked/
+data/indexes/
+data/gold/
+data/input_pdf/
+
+# Notebook and editor caches
+.ipynb_checkpoints/

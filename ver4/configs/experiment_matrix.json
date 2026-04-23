@@ -1,0 +1,76 @@
+{
+  "seed": 7,
+  "top_k": 5,
+  "datasets": [
+    "manual",
+    "auto",
+    "stress"
+  ],
+  "stages": {
+    "loader": [
+      "pdftotext_layout",
+      "pymupdf",
+      "pypdf"
+    ],
+    "cleaning": [
+      "minimal",
+      "regex_rules",
+      "field_layout_aware"
+    ],
+    "chunking": [
+      "fixed_size",
+      "recursive_paragraph",
+      "field_aware"
+    ],
+    "representation": [
+      "sparse_tfidf",
+      "dense_minilm",
+      "hybrid_dual"
+    ],
+    "retrieval": [
+      "sparse",
+      "dense",
+      "hybrid"
+    ],
+    "post_retrieval": [
+      "none",
+      "metadata_field_filter",
+      "heuristic_rerank"
+    ],
+    "generation": [
+      "strict_grounded",
+      "structured_field_grounded",
+      "concise_grounded"
+    ]
+  },
+  "defaults": {
+    "embed_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embed_device": "cuda",
+    "top_k": 5,
+    "max_context_chars": 9000,
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_tokens": 420,
+    "auto_questions": 120
+  },
+  "generation_backend": {
+    "backend": "local_vllm",
+    "model_name_or_path": "/home/a202192020/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "tensor_parallel_size": 1,
+    "max_model_len": 4096,
+    "gpu_memory_utilization": 0.8,
+    "enforce_eager": true,
+    "trust_remote_code": false,
+    "device": "cuda"
+  },
+  "judge_backend": {
+    "backend": "local_vllm",
+    "model_name_or_path": "/home/a202192020/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775",
+    "tensor_parallel_size": 1,
+    "max_model_len": 4096,
+    "gpu_memory_utilization": 0.6,
+    "enforce_eager": true,
+    "trust_remote_code": false,
+    "device": "cuda"
+  }
+}

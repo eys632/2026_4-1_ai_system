@@ -1,0 +1,52 @@
+{
+  "seed": 7,
+  "top_k": 5,
+  "datasets": [
+    "manual"
+  ],
+  "stages": {
+    "loader": [
+      "pdftotext_layout"
+    ],
+    "cleaning": [
+      "regex_rules"
+    ],
+    "chunking": [
+      "field_aware"
+    ],
+    "representation": [
+      "hybrid_dual"
+    ],
+    "retrieval": [
+      "sparse",
+      "dense",
+      "hybrid"
+    ],
+    "post_retrieval": [
+      "none"
+    ],
+    "generation": [
+      "strict_grounded"
+    ]
+  },
+  "defaults": {
+    "embed_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embed_device": "cpu",
+    "top_k": 5,
+    "max_context_chars": 8000,
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_tokens": 220,
+    "auto_questions": 120
+  },
+  "generation_backend": {
+    "backend": "local_rule",
+    "model_name_or_path": "rule-based-smoke",
+    "device": "cpu"
+  },
+  "judge_backend": {
+    "backend": "local_rule",
+    "model_name_or_path": "rule-based-judge-smoke",
+    "device": "cpu"
+  }
+}

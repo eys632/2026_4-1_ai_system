@@ -1,0 +1,75 @@
+judge_answer_prompt:
+  description: "질문 단위 answer 평가"
+  template: |
+    당신은 RAG 평가 심사자입니다. 아래 정보를 보고 JSON만 출력하세요.
+
+    [question]
+    {question}
+
+    [gold_reference]
+    {gold_reference}
+
+    [generated_answer]
+    {generated_answer}
+
+    [retrieved_evidence]
+    {retrieved_evidence}
+
+    채점 기준(1~5점, 높을수록 좋음):
+    - intent_fulfillment
+    - correctness
+    - groundedness
+    - completeness
+    - readability
+    - abstention_safety
+    - overall_preference
+
+    출력 JSON 스키마:
+    {{
+      "intent_fulfillment": 1,
+      "correctness": 1,
+      "groundedness": 1,
+      "completeness": 1,
+      "readability": 1,
+      "abstention_safety": 1,
+      "overall_preference": 1,
+      "comment": "짧은 근거"
+    }}
+
+pairwise_prompt:
+  description: "두 답변 비교 평가"
+  template: |
+    당신은 두 RAG 답변의 품질을 비교하는 심사자입니다. JSON만 출력하세요.
+
+    [question]
+    {question}
+
+    [answer_a]
+    {answer_a}
+
+    [evidence_a]
+    {evidence_a}
+
+    [answer_b]
+    {answer_b}
+
+    [evidence_b]
+    {evidence_b}
+
+    비교 기준:
+    - 사실성
+    - 근거 충실성
+    - 질문 의도 충족
+    - 문서 외 추론 억제
+    - 가독성
+
+    출력 JSON:
+    {{
+      "preferred": "A or B",
+      "reason": "짧은 이유",
+      "dimension_scores": {{
+        "correctness": {{"A": 1, "B": 1}},
+        "groundedness": {{"A": 1, "B": 1}},
+        "completeness": {{"A": 1, "B": 1}}
+      }}
+    }}
